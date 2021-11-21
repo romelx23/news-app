@@ -1,0 +1,12 @@
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+h2{
+    padding: 10px 0px;
+}
+.container__news{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-auto-flow: dense;
+    gap: 10px;
+}

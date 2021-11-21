@@ -1,0 +1,24 @@
+.container__card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    min-width: 300px;
+    min-height: 200px;
+    padding: 10px 20px;
+}
+.container__card:nth-child(3){
+    grid-row: 1/3;
+}
+.container__card:nth-child(5){
+    grid-column: 1/3;
+}
+.container__card:nth-child(8){
+    grid-column: 1/3;
+}
+.large{
+    /* grid-column: 1/3; */
+}
+
+.short{
+
+}
